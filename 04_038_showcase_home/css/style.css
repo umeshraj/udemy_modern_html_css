@@ -1,0 +1,78 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main styling */
+/* ============ */
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Utility classes */
+/* ================ */
+.container {
+  margin: auto;
+  max-width: 960px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+/* nav bar */
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto; /* background shows no matter what*/
+}
+
+#navbar a {
+  color: #fff;
+}
+
+/* move logo to the left */
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+/* move li menu to the right */
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+/* li should be in one line */
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color: #f7c08a;
+}
