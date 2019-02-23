@@ -96,6 +96,10 @@ p {
   padding: 30px 0;
 }
 
+.l-heading {
+  font-size: 40px;
+}
+
 /* nav bar */
 #navbar {
   background: #333;
@@ -212,6 +216,34 @@ p {
   display: block;
   margin: auto;
   width: 70%;
+  border-radius: 50%;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  height: 600px;
+  background: url("../img/test-bg.jpg") no-repeat center center/cover;
+  padding-top: 40px;
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
 }
 
 /* footers */
