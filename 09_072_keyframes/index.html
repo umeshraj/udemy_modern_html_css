@@ -14,24 +14,28 @@
         background: white;
         width: 200px;
         height: 200px;
+        position: relative;
 
-        animation-name: animate1;
+        /* animation-name: animate1;
         animation-duration: 2s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
-        /* animation-delay: 2s; */
+        animation-delay: 2s;
         animation-direction: alternate;
-        animation-timing-function: ease-in;
+        animation-timing-function: ease-in; */
+        animation: animate1 2s ease-in 0s 1 alternat forward;
       }
 
       @keyframes animate1 {
         from {
           width: 200px;
+          top: 0px;
         }
 
         to {
           width: 600px;
           background-color: red;
+          top: 300px;
         }
       }
     </style>
