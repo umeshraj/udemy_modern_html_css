@@ -89,5 +89,31 @@
         ></a>
       </div>
     </section>
+
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Smooth Scroll -->
+    <script>
+      // Smooth Scrolling
+      $("#navbar a, .btn").on("click", function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+
+          const hash = this.hash;
+
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top - 0
+            },
+            800
+          );
+        }
+      });
+    </script>
   </body>
 </html>
