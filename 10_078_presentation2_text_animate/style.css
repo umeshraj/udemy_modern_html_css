@@ -74,3 +74,26 @@ body {
   background: #f4f4f4;
   color: #333;
 }
+
+/* Page animation */
+#page-1 h1 {
+  transform: translateY(-1200px);
+  animation: heading var(--animate-speed) forwards ease-in;
+}
+
+@keyframes heading {
+  to {
+    transform: translateY(0px);
+  }
+}
+
+#page-1 p {
+  transform: translateX(-1800px);
+  animation: paragraph var(--animate-speed) forwards ease-in 2s;
+}
+
+@keyframes paragraph {
+  to {
+    transform: translateX(0);
+  }
+}
