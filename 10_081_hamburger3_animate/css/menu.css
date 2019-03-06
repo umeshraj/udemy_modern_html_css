@@ -55,7 +55,7 @@
   background: #fff;
 }
 
-/* moves line dow */
+/* moves line down */
 .menu-wrap .hamburger > div::after {
   top: 10px;
 }
