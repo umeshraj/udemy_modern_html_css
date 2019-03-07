@@ -34,3 +34,11 @@ body {
 h1 {
   font-size: 2.3rem;
 }
+
+/* TIME LINE */
+/* ========= */
+
+#timeline ul {
+  background: var(--primary-color);
+  padding: 50px 0;
+}
