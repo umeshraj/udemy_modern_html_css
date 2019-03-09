@@ -8,12 +8,9 @@
     <style>
       .grid {
         display: grid;
-        /* grid-template-columns: 200px 200px 200px; */
-        /* grid-template-columns: 200px auto 200px; */
-        /* grid-template-columns: auto auto auto; */
-        /* grid-template-columns: repeat(3, auto); */
-        grid-template-columns: 1fr 2fr 3fr;
-        grid-gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 2fr 3fr;
+        grid-auto-rows: 3fr;
       }
       .item {
         padding: 3rem;
@@ -22,12 +19,6 @@
         font-size: 1.3rem;
         font-weight: bold;
         text-align: center;
-      }
-      /* main styling */
-      main {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-gap: 1.5rem;
       }
     </style>
   </head>
@@ -40,25 +31,5 @@
       <div class="item">Item 5</div>
       <div class="item">Item 6</div>
     </div>
-
-    <!-- easy to make layout -->
-    <main>
-      <section>
-        <h3>Welcome To My Site</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-          perferendis obcaecati magni incidunt sapiente qui iure dolor ad
-          accusamus repudiandae! Aliquid eveniet quas amet est voluptatem odio
-          magnam quam fugiat?
-        </p>
-      </section>
-      <aside>
-        <h3>Hello</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
-          facere.
-        </p>
-      </aside>
-    </main>
   </body>
 </html>
