@@ -107,3 +107,15 @@ body {
   color: #fff;
   font-size: 4rem;
 }
+
+/* media query */
+@media (max-width: 600px) {
+  #navbar ul li {
+    display: block;
+  }
+  /* push navbar links down on small screens */
+  #navbar ul li:hover ul {
+    width: 100%;
+    position: relative;
+  }
+}
