@@ -173,6 +173,10 @@ h6 {
   padding: 3rem;
 }
 
+.l-heading {
+  font-size: 3rem;
+}
+
 /* list utility */
 .list li {
   padding: 0.5rem 0;
