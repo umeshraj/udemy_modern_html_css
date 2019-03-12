@@ -184,6 +184,19 @@ h6 {
   color: var(--primary-color) !important;
 }
 
+/* inner page grid container */
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin: 2rem 0;
+  grid-gap: 1.5rem;
+}
+
+/* aside box small */
+.page-container > *:first-child {
+  grid-row: 1 / span 3;
+}
+
 /* Navigation */
 #main-nav {
   background: #fff;
