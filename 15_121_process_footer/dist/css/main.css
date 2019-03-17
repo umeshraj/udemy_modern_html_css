@@ -215,3 +215,5 @@ img {
       line-height: 20px;
       text-align: center;
       padding: 0.5rem; }
+      #main-footer .footer-content .social .fab:hover {
+        background: #ffbc00; }
